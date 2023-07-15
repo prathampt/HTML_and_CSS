@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+    </head>
+    <body>
+        <form>
+            <div>
+                <input type="text" placeholder="Full Name" name="name">
+            </div>
+            <div>
+                <input type="text" placeholder="abc.pqr@gmail.com" name="email">
+                <input type="password" placeholder="password" name="password">
+            </div>
+            <div>
+                Favourite Color?
+                <input type="radio" name="color" value="red">red
+                <input type="radio" name="color" value="blue">blue
+                <input type="radio" name="color" value="green">green
+                <input type="radio" name="color" value="black">black
+            </div>
+            <div>
+                <input list="Subjects" name="subject" placeholder="Subject">
+                <datalist id="Subjects">
+                    <option value="Maths">Maths</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Programming">Programming</option>
+                </datalist>
+            </div>
+            <div>
+                <input type="submit">
+            </div>
+        </form>
+    </body>
+</html>
