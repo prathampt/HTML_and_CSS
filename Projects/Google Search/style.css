@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#main {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+#image {
+    max-width: fit-content;
+    height: 120px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+}
+
+.link-space {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    margin: 10px;
+    width: auto;
+    
+}
+
+.link {
+    margin: 10px;
+    padding-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(63, 65, 70);
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-items: center;
+    gap: 20px;
+}
+
+.buttons {
+    flex-direction: row;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.search-input {
+    border: 0.5px solid black;
+    background-image: url("Images/search-glass.png");
+    background-position: 19px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    width: 80%;  
+    max-width: 585px;
+    height: 48.5px;
+    margin-top: 25px;
+    justify-self: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 50px;
+    padding-left: 50px;
+    font-size: 16px;
+}
+
+@media (min-width:787px) {
+    .search-input{
+        width:585px;
+    }
+}
+
+.search-input:hover{
+    border:none;
+    box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.15)
+}
+.search-input:focus{
+    outline: none;
+}
+
+.search-button {
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 10px;
+    border: none;
+    border-radius: 24px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-button:hover {
+    border: none;
+    font-size: 110%;
+    box-shadow: 0px 1px 2px 2px rgba(0,0,0,0.15)   
+}
+
+#bottom-link {
+    margin-top: 15px;
+    display: inline-block;
+    color: blue;
+    left: 50%;
+
+}
+
+#adv {
+    color: red;
+    font-size: larger;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="reset"] {
+    background-color: #ccc;
+    margin-left: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .search-inputs1,
+  .search-options1,
+  .search-buttons1 {
+    margin-bottom: 20px;
+  }
